@@ -13,8 +13,8 @@ This is a simple React app that uses the [Numbers API](http://numbersapi.com) to
 ## Getting Started
 1. Clone the repository:
    ``` bash
-    git clone https://github.com/your-username/numbers-api-react.git
-    cd numbers-api-react
+    git clone https://github.com/Sillor/react-api-project
+    cd react-api-project
    ```
 2. Install Dependecies:
    ``` bash
