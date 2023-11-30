@@ -8,7 +8,7 @@ export default function Main() {
     }, [])
 
     function fetchRandom() {
-        fetch('https://singular-lokum-2daba6.netlify.app/api/random?json&min=0&max=9999')
+        fetch('http://numbersapi.com/random?json&min=0&max=9999')
             .then(res => res.json())
             .then(data => setFact(data));
     }
@@ -18,7 +18,7 @@ export default function Main() {
         const num = document.getElementById('userSearch').value;
 
         if (num)
-            fetch(`https://singular-lokum-2daba6.netlify.app/api/${num}?json`)
+            fetch(`http://numbersapi.com/api/${num}?json`)
                 .then(res => res.json())
                 .then(data => setFact(data));
         else
